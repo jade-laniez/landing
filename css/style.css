@@ -1,0 +1,147 @@
+@import url("components/avatar.css");
+
+@import url("components/container")
+
+@import url("components/button.css");
+@import url("components/container.css");
+
+
+
+
+body {
+    background-color: rgb(100, 150, 150);
+    color: rgb(70, 70, 70);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: normal;
+    font-size : 17px;
+}
+
+.banner {
+    background-image: url(../background.jpg);
+    padding: 150px 0px;
+    color: white;  
+    background-size: cover; 
+    background-position: center;
+    font-family: Helvetica;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.banner h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+
+ {
+    font-family: Helvetica;
+    color: black;
+    font-size: 32px; 
+}
+
+ {
+    font-family: Helvetica;
+    color: black;
+    font-weight: lighter;
+    font-size: 24px; 
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 4px;
+    background: rgb(100, 150, 150);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);   
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;    
+}
+
+.divi {
+    margin: 30px auto;
+    padding: 40px;
+    width: 600px;   
+}
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;  
+}
+
+.container {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.img {
+    border-radius: 6px;
+    width: 150px;   
+}
+
+h3 {
+    flex-grow: 1; 
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+
+
+@media (max-width: 960px) {
+    .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+    .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+    .container {
+    width: 300px;
+  }
+}
+
+
+.banner {
+    background-image: url(../background.jpg);
+    padding: 150px 0px;
+    color: white;  
+    background-size: cover; 
+    background-position: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.banner h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+
